@@ -92,31 +92,14 @@ Most cancellations occur in the **41+ minute delivery band (43 orders)**, showin
 ### Dataset
 The dataset consists of **350 simulated delivery orders** across UAE cities (Dubai, Abu Dhabi, Sharjah), including vendor, rider, and time-based operational data.
 
-### Key Fields
-- Order ID  
-- City  
-- Vendor  
-- Rider ID  
-- Order Time  
-- Delivery Time  
-- Expected Delivery Time  
-- Status (Delivered / Delayed / Cancelled)  
-- Cancellation Reason  
+The dataset was transformed and extended to simulate realistic delivery platform behavior, including:
+- SLA-based delay tracking to measure operational performance  
+- identification of late deliveries through SLA breach logic  
+- time-of-day analysis to uncover peak inefficiency periods  
+- delivery time segmentation to highlight distribution of delays  
+- vendor-level variability in preparation time and cancellation rates  
+- rider performance benchmarking across key delivery KPIs  
+- categorization of cancellations by root cause (customer, vendor, rider)  
+- strong relationship between longer delivery times and higher cancellation rates
 
----
-
-### Calculated Columns Added
-- **Delivery Delay** = Actual - Expected delivery time  
-- **SLA Breach Flag** = Identifies late deliveries  
-- **Order Hour** = Extracted from order timestamp  
-- **Delivery Time Bands** (e.g., 0–20, 21–30, 41+ mins)
-
----
-
-### Measures Added (DAX)
-- Total Orders  
-- Delivery Success Rate  
-- SLA Breach %  
-- Average Delivery Time  
-- Average Delivery Delay  
-- Cancellation Rate  
+The raw dataset and the data dictionary are inlcuded in the repository.
