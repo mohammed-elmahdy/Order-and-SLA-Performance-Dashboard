@@ -5,7 +5,7 @@ This is a multi-page Power BI dashboard analyzing delivery operations, SLA perfo
 ---
 
 ##  Project Overview
-This project simulates a delivery platform’s operations (similar to InstaShop/Talabat) and focuses on analyzing order performance, delivery efficiency, and cancellation patterns.
+This project simulates a delivery platform’s operations (similar to Talabat) and focuses on analyzing order performance, delivery efficiency, and cancellation patterns.
 
 The dashboard is designed using a **consulting-style structure**, enabling stakeholders to quickly understand operational health, identify bottlenecks, and make data-driven decisions.
 
