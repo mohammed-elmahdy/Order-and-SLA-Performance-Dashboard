@@ -30,6 +30,8 @@ The dashboard is structured into **5 focused pages**, each answering a specific 
 ### Operations Overview
 Provides a high-level summary of order trends, city performance, and overall SLA metrics.
 
+![Operations Overview](screenshots/1.jpg)
+
 **Key Insight:**  
 Orders declined significantly by **97% (204 → 6)** from January to March 2025, while **Dubai led performance (38.9%)**, followed by Abu Dhabi and Sharjah.
 
@@ -37,6 +39,8 @@ Orders declined significantly by **97% (204 → 6)** from January to March 2025,
 
 ### Delivery Performance
 Analyzes delivery time trends, SLA breaches, and distribution of delivery durations.
+
+![Delivery Performance](screenshots/2.jpg)
 
 **Key Insight:**  
 Average delivery time peaks at **12 PM (52.58 mins)** and is lowest at **9 PM (42.67 mins)**.  
@@ -47,6 +51,8 @@ Additionally, **72.86% of orders exceed 41 minutes**, indicating consistent deli
 ### Vendor Analysis
 Evaluates vendor contribution to delays and cancellations through prep time and cancellation rates.
 
+![Vendor Analysis](screenshots/3.jpg)
+
 **Key Insight:**  
 **Carrefour** recorded the highest cancellation rate (**21.21%**), which is **179.29% higher than Lulu (7.59%)**, highlighting vendor-driven inefficiencies.
 
@@ -55,12 +61,16 @@ Evaluates vendor contribution to delays and cancellations through prep time and 
 ### Rider Performance
 Assesses rider-level efficiency across total orders, delivery time, and SLA compliance.
 
+![Rider Performance](screenshots/4.jpg)
+
 This page enables identification of underperforming riders using conditional formatting and comparative KPIs.
 
 ---
 
 ### Cancellation Analysis
 Breaks down cancellation reasons, delivery time impact, and city-level cancellation trends.
+
+![Cancellation Analysis](screenshots/5.jpg)
 
 **Key Insight:**  
 Vendor-driven cancellations dominate (**46%**), followed by riders (**31%**).  
@@ -110,5 +120,3 @@ The dataset consists of **350 simulated delivery orders** across UAE cities (Dub
 - Average Delivery Time  
 - Average Delivery Delay  
 - Cancellation Rate  
-
----
