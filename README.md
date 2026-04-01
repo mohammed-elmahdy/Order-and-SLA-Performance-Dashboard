@@ -27,7 +27,7 @@ The dashboard is structured into **5 focused pages**, each answering a specific 
 
 ---
 
-### Operations Overview
+### 1. Operations Overview
 Provides a high-level summary of order trends, city performance, and overall SLA metrics.
 
 ![Operations Overview](screenshots/1.jpg)
@@ -37,7 +37,7 @@ Orders declined significantly by **97% (204 → 6)** from January to March 2025,
 
 ---
 
-### Delivery Performance
+### 2. Delivery Performance
 Analyzes delivery time trends, SLA breaches, and distribution of delivery durations.
 
 ![Delivery Performance](screenshots/2.jpg)
@@ -48,7 +48,7 @@ Additionally, **72.86% of orders exceed 41 minutes**, indicating consistent deli
 
 ---
 
-### Vendor Analysis
+### 3. Vendor Analysis
 Evaluates vendor contribution to delays and cancellations through prep time and cancellation rates.
 
 ![Vendor Analysis](screenshots/3.jpg)
@@ -58,7 +58,7 @@ Evaluates vendor contribution to delays and cancellations through prep time and 
 
 ---
 
-### Rider Performance
+### 4. Rider Performance
 Assesses rider-level efficiency across total orders, delivery time, and SLA compliance.
 
 ![Rider Performance](screenshots/4.jpg)
@@ -67,7 +67,7 @@ This page enables identification of underperforming riders using conditional for
 
 ---
 
-### Cancellation Analysis
+### 5. Cancellation Analysis
 Breaks down cancellation reasons, delivery time impact, and city-level cancellation trends.
 
 ![Cancellation Analysis](screenshots/5.jpg)
