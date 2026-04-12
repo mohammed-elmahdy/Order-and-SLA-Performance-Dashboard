@@ -1,6 +1,6 @@
 #  Order & SLA Performance Dashboard
-
-This is a multi-page Power BI dashboard analyzing delivery operations, SLA performance, and cancellations across UAE cities, vendors, and riders to identify key operational inefficiencies.
+This project demonstrates end-to-end data analysis, including data modeling, DAX, and dashboard design.
+It analysis delivery operations, SLA performance, and cancellations across UAE cities, vendors, and riders to identify key operational inefficiencies.
 
 ---
 
@@ -81,7 +81,7 @@ Most cancellations occur in the **41+ minute delivery band (43 orders)**, showin
 ## Key Findings
 - Delivery delays are **consistent and systemic**, with the majority of orders exceeding SLA thresholds.
 - **Midday (12 PM)** represents peak inefficiency in delivery operations.
-- **Vendor performance is a major Obstacle**, significantly impacting cancellations and delays.
+- **Vendor performance is a major obstacle**, significantly impacting cancellations and delays.
 - Longer delivery durations (**41+ mins**) strongly correlate with higher cancellation rates.
 - Performance varies across cities, with **Dubai leading overall efficiency**.
 
